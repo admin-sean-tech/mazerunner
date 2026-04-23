@@ -1,0 +1,16 @@
+[project]
+name = "mazerunner"
+version = "0.1.0"
+description = "MazeRunner is a maze exploring game where users experience exciting items and adventures by finding the exit to the maze in each stage"
+readme = "README.md"
+requires-python = ">=3.15"
+dependencies = [
+    "pygame-ce>=2.5.7",
+]
+
+[project.scripts]
+mazerunner = "mazerunner:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"

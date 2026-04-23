@@ -1,0 +1,1 @@
+game_mode = 1
