@@ -1,1 +1,24 @@
-game_mode = 1
+GAME_MODE = 1
+SCREEN_SIZE = (1280, 720)
+
+SAVE_FILE = "save.json"
+MAZES_DIR = "mazes"
+
+TOP_BAR_H = 50
+MENU_ITEM_H = 36
+MENU_W = 140
+
+EDITOR_TOOLBAR_H = 44
+PANEL_W = 160
+CELL_SIZE = 32
+GRID_COLS = 35   # (1280 - 160) // 32 = 35 columns
+GRID_ROWS = 19   # 19 * 32 = 608 — fits below top bar + toolbar
+
+CELL_EMPTY, CELL_WALL, CELL_START, CELL_END = 0, 1, 2, 3
+
+CELL_COLORS = {
+    CELL_EMPTY: (235, 235, 235),
+    CELL_WALL:  (70, 70, 70),
+    CELL_START: (80, 200, 100),
+    CELL_END:   (200, 80, 80),
+}
